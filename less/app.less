@@ -1,0 +1,29 @@
+// Slick carousel
+.slick-prev:before,
+.slick-next:before {
+  color: #333;
+  font-size: 30px;
+}
+
+.slick-prev:after,
+.slick-next:after {
+  color: #F00;
+  font-size: 30px;
+}
+
+// Single line list entries with commas between
+.taglist {
+  a:after {
+    content: ", ";
+  }
+  a:last-child:after {
+    content: "";
+  }
+}
+
+// Custom spacing needed for fonts made via Fontastic
+[class^="sf-"]:before,
+[class*=" sf-"]:before {
+  position: relative;
+  top: 3px;
+}
